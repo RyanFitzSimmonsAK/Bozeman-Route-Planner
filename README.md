@@ -1,4 +1,4 @@
-# Bozeman-Route-Planner
+# Bozeman Route Planner
 This is a walking route planner for Bozeman, MT.  Given a list of addresses in "destination.txt", it will calculate the 
 optimal order to visit those locations, and return that path and travel time.  It uses the Held-Karp dynamic programming
 algorithm to find this route in exponential time, which is a big improvement over the brute force solution.  Eventually, 
