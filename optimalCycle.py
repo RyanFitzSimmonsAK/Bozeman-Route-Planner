@@ -3,7 +3,7 @@ import copy
 
 def findOptimalCycle(distanceMatrix):
     """
-    A function that utilizes the Held-Karp algorithm to solve the traveling salesman problem using dynamic problem.
+    A function that utilizes the Held-Karp algorithm to solve the traveling salesman problem using dynamic programming.
     :param distanceMatrix: The distance matrix expressed as time in seconds.
     :return: The travel time, and the indices of the destinations in optimal travel order.
     """
